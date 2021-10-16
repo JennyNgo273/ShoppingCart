@@ -44,7 +44,7 @@ const mapDispatchToProps =(dispatch)=>{
                 cartProduct
             };
 
-            //use dispatch function to send data to producer
+            //use dispatch function to send data to reducer
             dispatch(action);
         }
     } 

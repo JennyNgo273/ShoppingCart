@@ -32,7 +32,7 @@ class CartRedux extends Component {
 //function get value from redux store convert to props component
 const mapStateToProps = (state) =>{
     return{
-        gioHang: state.stateCart.Cart
+        gioHang: state.stateCart.cart
     }
 }
 
